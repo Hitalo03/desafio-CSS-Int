@@ -1,0 +1,253 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-red:#F03C42;
+    --color-white:#fff;
+    --bk-section:#222374;
+    --color-gray:#CCCCCC;
+    --color-black:#000000;
+    
+}
+
+header {
+    background-color: var(--color-red);
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+nav {
+    display: flex;
+    justify-content:space-between;
+
+}
+
+
+
+nav h1 {
+   color:var(--color-white);
+   font-size: 18pxs;
+}
+
+.right {
+    display: flex;
+}
+
+nav a {
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 14pxs;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    left: 955px;
+    top: 35px;
+}
+
+.main {
+    background-color: var(--bk-section);
+    height: 418px;
+    left: 0px;
+    top: 100px;
+}
+.section-conheça {
+    background-color: var(--bk-section);
+    color: var(--color-black);
+    padding: 40px;
+}
+
+.section-space h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.section-space {
+    background-color: var(--color-gray);
+    height: 127px;
+    margin: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.section-conheça h1 {
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    margin: -25px 0px 40px 0px;
+    padding: 0;
+}
+
+.section-space p {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+#ajuste {
+    margin-bottom: 0px;
+}
+.section2 {
+    width: 1200px;
+    height: 880px;
+    left: 0px;
+    top: 518px;
+}
+.section2 h1 {
+    color: var(--color-red);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    margin: 20px 40px;
+}
+
+.bk-color-azul {
+    background-color: var(--bk-section);
+    margin-bottom: 10px;
+    align-items: center;
+    width: 960px;
+    height: 106px;
+    left: 120px;
+    top: 622px;
+    border-radius: 8px;
+}
+
+.bk-color-azul h3 {
+
+    color: var(--color-white);
+    padding: 20px 0 20px 55px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+
+}
+
+.bk-color-azul p {
+    color: var(--color-gray);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    padding: 0 55px;
+}
+
+footer {
+    background-color: var(--color-black);
+    position: absolute;
+    width: 100%;
+    height: 262px;
+    left: 0px;
+    top: 1398px;
+    padding-top: 70px;
+}
+
+.ajust-social {
+    display: flex;
+    justify-content:center;
+    padding: 5px 0;
+    align-items: center;
+
+}
+
+.ajust-social img {
+    width: 30px;
+    height: 30px;
+    left: 537px;
+    top: 1458px;
+
+}
+.ajust-social a {
+    text-decoration: none;
+    color: var(--color-white);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.endereço {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+.endereço p {
+    color: var(--color-white);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.endereço address {
+    color: var(--color-white);
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#ajust1 {
+    width: 30px;
+    height: 30px;
+    left: 537px;
+    top: 1498px;
+    align-items:flex-end;
+}
